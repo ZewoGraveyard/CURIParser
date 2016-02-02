@@ -15,7 +15,7 @@ CURIParser
 ```bash
 $ git clone https://github.com/Zewo/uri_parser.git
 $ cd uri_parser
-$ make
+$ make package
 $ dpkg -i uri_parser.deb
 ```
 
