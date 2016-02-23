@@ -12,14 +12,14 @@ CURIParser
 
 - Install [`uri_parser`](https://github.com/Zewo/uri_parser)
 
-### Homebrew
+### OS X
 
 ```bash
 brew tap zewo/tap
 brew install uri_parser
 ```
 
-### Ubuntu/Debian
+### Linux
 
 ```bash
 echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
