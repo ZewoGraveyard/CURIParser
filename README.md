@@ -10,19 +10,29 @@ CURIParser
 
 ## Installation
 
-- Install zewo dependencies
+- Install [`uri_parser`](https://github.com/Zewo/uri_parser)
 
 ### Homebrew
+
 ```bash
-$ brew tap zewo/tap
-$ brew install zewo
+brew tap zewo/tap
+brew install uri_parser
 ```
 
 ### Ubuntu/Debian
+
 ```bash
-$ echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
-$ sudo apt-get update
-$ sudo apt-get install zewo
+echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install uri-parser
+```
+
+### Source
+
+```bash
+git clone https://github.com/Zewo/uri_parser.git && cd uri_parser
+make
+sudo make install
 ```
 
 - Add `CURIParser` to your `Package.swift`
