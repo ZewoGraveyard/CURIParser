@@ -1,0 +1,5 @@
+module CURIParser {
+    header "uri_parser.h"
+    link "CURIParser"
+    export *
+}
