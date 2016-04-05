@@ -8,6 +8,8 @@ CURIParser
 
 **CURIParser** is an URI ([RFC 3986](https://tools.ietf.org/html/rfc3986)) parser for **Swift 3.0**.
 
+This is a modularized excerpt of [node.js's http-parser](https://github.com/nodejs/http-parser) source.
+
 ## Package
 
 ```swift
